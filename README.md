@@ -1,1 +1,1 @@
-# proshop-hosting
+# proshop-hosting-ecomm
