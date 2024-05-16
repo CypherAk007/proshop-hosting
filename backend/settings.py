@@ -116,9 +116,9 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS':['frontend/build'],
+        
         'DIRS': [
-            os.path.join(BASE_DIR,'frontend/build')
+            os.path.join(BASE_DIR,'frontend/build/index.html')
         ],
         'APP_DIRS': True,
         'OPTIONS': {
